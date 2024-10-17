@@ -1,5 +1,6 @@
 # Car-dealer-app
 - Click on the link to see the project. https://car-dealer-app.vercel.app
+  
 Car-dealer-app is a web application that allows users to select vehicle makes and years to view model information for a specific vehicle make and year. This application utilizes the [NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/) to fetch vehicle data.
 
 ## Features
