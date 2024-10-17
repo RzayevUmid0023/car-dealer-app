@@ -1,5 +1,5 @@
 # Car-dealer-app
-
+- Click on the link to see the project. https://car-dealer-app.vercel.app
 Car-dealer-app is a web application that allows users to select vehicle makes and years to view model information for a specific vehicle make and year. This application utilizes the [NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/) to fetch vehicle data.
 
 ## Features
@@ -53,9 +53,12 @@ Car-dealer-app is a web application that allows users to select vehicle makes an
 
   Create a file named .env.local in the project directory and add the following content:
 
-![image](https://github.com/user-attachments/assets/c321ec97-4c7c-4f7e-b4f3-91120ea4e65f)
-![image](https://github.com/user-attachments/assets/de329d38-f886-4495-94d1-856bcab1f92a)
-![image](https://github.com/user-attachments/assets/1293e762-9f50-4b15-8f88-93db8c48cfa5)
+![image](https://github.com/user-attachments/assets/270ecd13-24d6-4b8a-84a8-b5edfd1a3e09)
+![image](https://github.com/user-attachments/assets/825d33db-0fff-4871-9832-6660bcd36968)
+![image](https://github.com/user-attachments/assets/0719f761-1683-44b2-bd20-905f4e7576fa)
+
+
+
 
 
 
