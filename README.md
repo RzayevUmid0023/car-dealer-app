@@ -64,8 +64,8 @@ Car-dealer-app is a web application that allows users to select vehicle makes an
 
 
    ```bash
-   MODELS_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles
-   API_URL=https://vpic.nhtsa.dot.gov/api/vehicles
+   NEXT_PUBLIC_MODELS_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles
+   NEXT_PUBLIC_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles
 
 
 
