@@ -11,7 +11,7 @@ const ResultPage = ({ params }) => {
   useEffect(() => {
     const fetchModels = async () => {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/GetModelsForMakeIdYear/makeId/${makeId}/modelyear/${year}?format=json`); // API URL'sini env'den aldık
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/GetModelsForMakeIdYear/makeId/${makeId}/modelyear/${year}?format=json`);
         const data = await response.json();
 
         if (data.Results) {

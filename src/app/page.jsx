@@ -12,7 +12,7 @@ const FilterPage = () => {
   useEffect(() => {
     const fetchMakes = async () => {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/GetMakesForVehicleType/car?format=json`); // API URL'sini env'den aldık
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/GetMakesForVehicleType/car?format=json`);
         const data = await response.json();
         setMakes(data.Results || []); // Ensure to set to an empty array if undefined
       } catch (error) {
@@ -36,7 +36,7 @@ const FilterPage = () => {
             value={selectedMake}
             onChange={(e) => setSelectedMake(e.target.value)}
           >
-            <option value="" className="bg-gray-800">Select Make</option>
+            <option value="" className="bg-gray-800">Select Car Model</option>
             {makes.length > 0 ? (
               makes.map((make) => (
                 <option key={make.MakeId} value={make.MakeId} className="bg-gray-800">
