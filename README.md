@@ -62,6 +62,7 @@ Car-dealer-app is a web application that allows users to select vehicle makes an
 
 
 
+Create a .env.local file in the main directory and write the following in it
 
    ```bash
    NEXT_PUBLIC_MODELS_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles
